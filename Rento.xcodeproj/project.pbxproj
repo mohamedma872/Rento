@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0D5B151F51591900974956 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D5B141F51591900974956 /* NotificationsViewController.swift */; };
+		0E0EA2732018B4CA000C28FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E0EA2752018B4CA000C28FA /* Localizable.strings */; };
+		0E0EA2782018CCC7000C28FA /* MirroringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0EA2772018CCC7000C28FA /* MirroringViewController.swift */; };
+		0E170B741F5F879900BFFF45 /* ForgotPasswordViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E170B731F5F879900BFFF45 /* ForgotPasswordViewController2.swift */; };
+		0E170B761F5F88BB00BFFF45 /* ForgotPasswordViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E170B751F5F88BB00BFFF45 /* ForgotPasswordViewController3.swift */; };
+		0E1CFF011F5AA01B0091D3C4 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CFF001F5AA01B0091D3C4 /* AddCarViewController.swift */; };
+		0E1CFF031F5D9BDD0091D3C4 /* IncomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CFF021F5D9BDD0091D3C4 /* IncomingViewController.swift */; };
+		0E1CFF051F5E00310091D3C4 /* SentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CFF041F5E00310091D3C4 /* SentViewController.swift */; };
+		0E1CFF071F5E11790091D3C4 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CFF061F5E11790091D3C4 /* DepositViewController.swift */; };
+		0E24CA561F450A4E0065F849 /* CountryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24CA551F450A4E0065F849 /* CountryPageViewController.swift */; };
+		0E24CA581F450AA70065F849 /* CountryCellPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24CA571F450AA70065F849 /* CountryCellPageViewController.swift */; };
+		0E24CA5A1F470F340065F849 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24CA591F470F340065F849 /* SignUpViewController.swift */; };
+		0E2BEB9B1FC7CC8000D8BFA8 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BEB9A1FC7CC8000D8BFA8 /* TermsViewController.swift */; };
+		0E2BEB9D1FC7EA1D00D8BFA8 /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BEB9C1FC7EA1D00D8BFA8 /* ContactUSViewController.swift */; };
+		0E33726A1F437D9A00C71B31 /* LanguageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3372691F437D9A00C71B31 /* LanguageSelectionViewController.swift */; };
+		0E33726C1F43A8E600C71B31 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E33726B1F43A8E600C71B31 /* Roboto-Medium.ttf */; };
+		0E33726E1F43A9BC00C71B31 /* CountrySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E33726D1F43A9BC00C71B31 /* CountrySelectionViewController.swift */; };
+		0E3372701F43B1BC00C71B31 /* NeoSans-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E33726F1F43B1BC00C71B31 /* NeoSans-regular.ttf */; };
+		0E4A81AF215679D40069C95B /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A81AE215679D40069C95B /* MoreVC.swift */; };
+		0E4A81B121567FE00069C95B /* PDFWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A81B021567FE00069C95B /* PDFWebVC.swift */; };
+		0E4A81BE215681100069C95B /* الشروط و الأحكام ١.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81B32156810F0069C95B /* الشروط و الأحكام ١.pdf */; };
+		0E4A81BF215681100069C95B /* متطلبات العضوية.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81B42156810F0069C95B /* متطلبات العضوية.pdf */; };
+		0E4A81C0215681100069C95B /* Terms And Conditions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81B52156810F0069C95B /* Terms And Conditions.pdf */; };
+		0E4A81C1215681100069C95B /* Usage Policies.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81B62156810F0069C95B /* Usage Policies.pdf */; };
+		0E4A81C2215681100069C95B /* Fees And Commissions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81B72156810F0069C95B /* Fees And Commissions.pdf */; };
+		0E4A81C3215681100069C95B /* الشروط و الأحكام.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81B82156810F0069C95B /* الشروط و الأحكام.pdf */; };
+		0E4A81C4215681100069C95B /* Rating a Car.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81B92156810F0069C95B /* Rating a Car.pdf */; };
+		0E4A81C5215681100069C95B /* جدول الرسوم و العمولات.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81BA2156810F0069C95B /* جدول الرسوم و العمولات.pdf */; };
+		0E4A81C6215681100069C95B /* سياسة الإستخدام.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81BB2156810F0069C95B /* سياسة الإستخدام.pdf */; };
+		0E4A81C7215681100069C95B /* Memberrship Requirements.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81BC2156810F0069C95B /* Memberrship Requirements.pdf */; };
+		0E4A81C8215681100069C95B /* الإستئجار.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A81BD2156810F0069C95B /* الإستئجار.pdf */; };
+		0E52DB8420175D0200CBCC1F /* L012Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52DB8220175D0200CBCC1F /* L012Localizer.swift */; };
+		0E52DB8520175D0200CBCC1F /* L102Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52DB8320175D0200CBCC1F /* L102Language.swift */; };
+		0E6AFFEF204DDCC7001F09FA /* SignUpOrLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6AFFEE204DDCC7001F09FA /* SignUpOrLoginViewController.swift */; };
+		0E74E5F31F7A0A2C00D85BCC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74E5F21F7A0A2C00D85BCC /* NotificationService.swift */; };
+		0E74E5F71F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0E74E5F01F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0E74E5FF1F7ACDBA00D85BCC /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74E5FE1F7ACDBA00D85BCC /* CongratsViewController.swift */; };
+		0E74E6011F7B074400D85BCC /* RentPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74E6001F7B074400D85BCC /* RentPromptViewController.swift */; };
+		0E74E6031F7B16A700D85BCC /* RefusalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74E6021F7B16A700D85BCC /* RefusalViewController.swift */; };
+		0E74E6051F7B16BA00D85BCC /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74E6041F7B16BA00D85BCC /* RatingViewController.swift */; };
+		0E9220D21F49DDF80090AEA7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9220D11F49DDF80090AEA7 /* LoginViewController.swift */; };
+		0E9220D41F49E7A80090AEA7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9220D31F49E7A80090AEA7 /* ForgotPasswordViewController.swift */; };
+		0E9220D71F4A62060090AEA7 /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9220D61F4A62060090AEA7 /* CarsTableViewController.swift */; };
+		0EA42D6F1F557A7400F16F19 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA42D6E1F557A7400F16F19 /* SearchViewController.swift */; };
+		0ECAB63B1F507B52004E7870 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECAB63A1F507B52004E7870 /* UserProfileViewController.swift */; };
+		0ED3B6731F5EE74300635A66 /* WithDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3B6721F5EE74300635A66 /* WithDrawViewController.swift */; };
+		0EDA6F5A1F07C382009C0D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA6F591F07C382009C0D1D /* AppDelegate.swift */; };
+		0EDA6F5C1F07C382009C0D1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA6F5B1F07C382009C0D1D /* ViewController.swift */; };
+		0EDA6F5F1F07C382009C0D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6F5D1F07C382009C0D1D /* Main.storyboard */; };
+		0EDA6F611F07C382009C0D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6F601F07C382009C0D1D /* Assets.xcassets */; };
+		0EDA6F641F07C382009C0D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6F621F07C382009C0D1D /* LaunchScreen.storyboard */; };
+		0EDA6F6C1F07D2DD009C0D1D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA6F6B1F07D2DD009C0D1D /* MapViewController.swift */; };
+		0EDA6F6E1F07D614009C0D1D /* CustomMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6F6D1F07D614009C0D1D /* CustomMapCell.xib */; };
+		0EDA6F701F07DB02009C0D1D /* CustomMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA6F6F1F07DB02009C0D1D /* CustomMapCell.swift */; };
+		0EDE556A2032490E003A8BC2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE55692032490E003A8BC2 /* Helper.swift */; };
+		0EEB0ED31F4CFD940020E6F8 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB0ED21F4CFD940020E6F8 /* CarViewController.swift */; };
+		0EEB0ED51F4CFE1A0020E6F8 /* CarPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB0ED41F4CFE1A0020E6F8 /* CarPageViewController.swift */; };
+		0EEB0ED71F4CFE640020E6F8 /* CarImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB0ED61F4CFE640020E6F8 /* CarImageViewController.swift */; };
+		0EF7390A1F966C0100E0ECC4 /* WaitVerificartionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF739091F966C0100E0ECC4 /* WaitVerificartionViewController.swift */; };
+		0EF89A691F4ED61500241605 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF89A681F4ED61500241605 /* SideMenuViewController.swift */; };
+		67C5FF5059558B9D8A29F3BD /* Pods_Rento.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC8DE0EB2DEE7A3B2C7EDE5 /* Pods_Rento.framework */; };
+		88AF49E667B99564B6E5DEF6 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D24AA4C53BCABE7FD42004 /* Pods_OneSignalNotificationServiceExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E74E5F51F7A0A2C00D85BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDA6F4E1F07C382009C0D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E74E5EF1F7A0A2C00D85BCC;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E74E5FB1F7A0A2C00D85BCC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0E74E5F71F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E0D5B141F51591900974956 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		0E0EA26F2018B488000C28FA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		0E0EA2702018B488000C28FA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0E0EA2742018B4CA000C28FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0E0EA2762018B4CE000C28FA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0E0EA2772018CCC7000C28FA /* MirroringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirroringViewController.swift; sourceTree = "<group>"; };
+		0E170B731F5F879900BFFF45 /* ForgotPasswordViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController2.swift; sourceTree = "<group>"; };
+		0E170B751F5F88BB00BFFF45 /* ForgotPasswordViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController3.swift; sourceTree = "<group>"; };
+		0E1CFF001F5AA01B0091D3C4 /* AddCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
+		0E1CFF021F5D9BDD0091D3C4 /* IncomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingViewController.swift; sourceTree = "<group>"; };
+		0E1CFF041F5E00310091D3C4 /* SentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentViewController.swift; sourceTree = "<group>"; };
+		0E1CFF061F5E11790091D3C4 /* DepositViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		0E24CA551F450A4E0065F849 /* CountryPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPageViewController.swift; sourceTree = "<group>"; };
+		0E24CA571F450AA70065F849 /* CountryCellPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCellPageViewController.swift; sourceTree = "<group>"; };
+		0E24CA591F470F340065F849 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0E2BEB9A1FC7CC8000D8BFA8 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		0E2BEB9C1FC7EA1D00D8BFA8 /* ContactUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
+		0E3372691F437D9A00C71B31 /* LanguageSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectionViewController.swift; sourceTree = "<group>"; };
+		0E33726B1F43A8E600C71B31 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0E33726D1F43A9BC00C71B31 /* CountrySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewController.swift; sourceTree = "<group>"; };
+		0E33726F1F43B1BC00C71B31 /* NeoSans-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeoSans-regular.ttf"; sourceTree = "<group>"; };
+		0E4A81AE215679D40069C95B /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		0E4A81B021567FE00069C95B /* PDFWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFWebVC.swift; sourceTree = "<group>"; };
+		0E4A81B32156810F0069C95B /* الشروط و الأحكام ١.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "الشروط و الأحكام ١.pdf"; sourceTree = "<group>"; };
+		0E4A81B42156810F0069C95B /* متطلبات العضوية.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "متطلبات العضوية.pdf"; sourceTree = "<group>"; };
+		0E4A81B52156810F0069C95B /* Terms And Conditions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Terms And Conditions.pdf"; sourceTree = "<group>"; };
+		0E4A81B62156810F0069C95B /* Usage Policies.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Usage Policies.pdf"; sourceTree = "<group>"; };
+		0E4A81B72156810F0069C95B /* Fees And Commissions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fees And Commissions.pdf"; sourceTree = "<group>"; };
+		0E4A81B82156810F0069C95B /* الشروط و الأحكام.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "الشروط و الأحكام.pdf"; sourceTree = "<group>"; };
+		0E4A81B92156810F0069C95B /* Rating a Car.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rating a Car.pdf"; sourceTree = "<group>"; };
+		0E4A81BA2156810F0069C95B /* جدول الرسوم و العمولات.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "جدول الرسوم و العمولات.pdf"; sourceTree = "<group>"; };
+		0E4A81BB2156810F0069C95B /* سياسة الإستخدام.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "سياسة الإستخدام.pdf"; sourceTree = "<group>"; };
+		0E4A81BC2156810F0069C95B /* Memberrship Requirements.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Memberrship Requirements.pdf"; sourceTree = "<group>"; };
+		0E4A81BD2156810F0069C95B /* الإستئجار.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "الإستئجار.pdf"; sourceTree = "<group>"; };
+		0E52DB8220175D0200CBCC1F /* L012Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L012Localizer.swift; sourceTree = "<group>"; };
+		0E52DB8320175D0200CBCC1F /* L102Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L102Language.swift; sourceTree = "<group>"; };
+		0E6AFFEE204DDCC7001F09FA /* SignUpOrLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpOrLoginViewController.swift; sourceTree = "<group>"; };
+		0E74E5F01F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E74E5F21F7A0A2C00D85BCC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0E74E5F41F7A0A2C00D85BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E74E5FC1F7A0C6500D85BCC /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		0E74E5FD1F7A0CC300D85BCC /* Rento.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rento.entitlements; sourceTree = "<group>"; };
+		0E74E5FE1F7ACDBA00D85BCC /* CongratsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		0E74E6001F7B074400D85BCC /* RentPromptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentPromptViewController.swift; sourceTree = "<group>"; };
+		0E74E6021F7B16A700D85BCC /* RefusalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefusalViewController.swift; sourceTree = "<group>"; };
+		0E74E6041F7B16BA00D85BCC /* RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		0E9220D11F49DDF80090AEA7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0E9220D31F49E7A80090AEA7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0E9220D61F4A62060090AEA7 /* CarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
+		0EA42D6E1F557A7400F16F19 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0ECAB63A1F507B52004E7870 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		0ED3B6721F5EE74300635A66 /* WithDrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithDrawViewController.swift; sourceTree = "<group>"; };
+		0EDA6F561F07C382009C0D1D /* Rento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDA6F591F07C382009C0D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EDA6F5B1F07C382009C0D1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EDA6F5E1F07C382009C0D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EDA6F601F07C382009C0D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EDA6F631F07C382009C0D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EDA6F651F07C382009C0D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDA6F6B1F07D2DD009C0D1D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0EDA6F6D1F07D614009C0D1D /* CustomMapCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMapCell.xib; sourceTree = "<group>"; };
+		0EDA6F6F1F07DB02009C0D1D /* CustomMapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapCell.swift; sourceTree = "<group>"; };
+		0EDE55692032490E003A8BC2 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0EEB0ED21F4CFD940020E6F8 /* CarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		0EEB0ED41F4CFE1A0020E6F8 /* CarPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPageViewController.swift; sourceTree = "<group>"; };
+		0EEB0ED61F4CFE640020E6F8 /* CarImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarImageViewController.swift; sourceTree = "<group>"; };
+		0EF739091F966C0100E0ECC4 /* WaitVerificartionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitVerificartionViewController.swift; sourceTree = "<group>"; };
+		0EF89A681F4ED61500241605 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		1A98377BDC120E57A6C79AFB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC8DE0EB2DEE7A3B2C7EDE5 /* Pods_Rento.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rento.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBDAE36AA1B22B02D21804A /* Pods-Rento.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rento.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rento/Pods-Rento.release.xcconfig"; sourceTree = "<group>"; };
+		C8D24AA4C53BCABE7FD42004 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF37EE9052A5539D1CCD226D /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		F8173D814000998944FC79DF /* Pods-Rento.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rento.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rento/Pods-Rento.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E74E5ED1F7A0A2C00D85BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF49E667B99564B6E5DEF6 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDA6F531F07C382009C0D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C5FF5059558B9D8A29F3BD /* Pods_Rento.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4A81B22156810F0069C95B /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E4A81B32156810F0069C95B /* الشروط و الأحكام ١.pdf */,
+				0E4A81B42156810F0069C95B /* متطلبات العضوية.pdf */,
+				0E4A81B52156810F0069C95B /* Terms And Conditions.pdf */,
+				0E4A81B62156810F0069C95B /* Usage Policies.pdf */,
+				0E4A81B72156810F0069C95B /* Fees And Commissions.pdf */,
+				0E4A81B82156810F0069C95B /* الشروط و الأحكام.pdf */,
+				0E4A81B92156810F0069C95B /* Rating a Car.pdf */,
+				0E4A81BA2156810F0069C95B /* جدول الرسوم و العمولات.pdf */,
+				0E4A81BB2156810F0069C95B /* سياسة الإستخدام.pdf */,
+				0E4A81BC2156810F0069C95B /* Memberrship Requirements.pdf */,
+				0E4A81BD2156810F0069C95B /* الإستئجار.pdf */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		0E74E5F11F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0E74E5FC1F7A0C6500D85BCC /* OneSignalNotificationServiceExtension.entitlements */,
+				0E74E5F21F7A0A2C00D85BCC /* NotificationService.swift */,
+				0E74E5F41F7A0A2C00D85BCC /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		0EDA6F4D1F07C382009C0D1D = {
+			isa = PBXGroup;
+			children = (
+				0EDA6F581F07C382009C0D1D /* Rento */,
+				0E4A81B22156810F0069C95B /* Content */,
+				0E74E5F11F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension */,
+				0EDA6F571F07C382009C0D1D /* Products */,
+				FEC83ABF0B092D8FE62362F1 /* Pods */,
+				546EEEAEFC6379BC3B07A4BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EDA6F571F07C382009C0D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EDA6F561F07C382009C0D1D /* Rento.app */,
+				0E74E5F01F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EDA6F581F07C382009C0D1D /* Rento */ = {
+			isa = PBXGroup;
+			children = (
+				0E74E5FD1F7A0CC300D85BCC /* Rento.entitlements */,
+				0E52DB8220175D0200CBCC1F /* L012Localizer.swift */,
+				0EDE55692032490E003A8BC2 /* Helper.swift */,
+				0E52DB8320175D0200CBCC1F /* L102Language.swift */,
+				0E0EA2772018CCC7000C28FA /* MirroringViewController.swift */,
+				0EDA6F591F07C382009C0D1D /* AppDelegate.swift */,
+				0EDA6F5B1F07C382009C0D1D /* ViewController.swift */,
+				0E3372691F437D9A00C71B31 /* LanguageSelectionViewController.swift */,
+				0E0EA2752018B4CA000C28FA /* Localizable.strings */,
+				0EDA6F5D1F07C382009C0D1D /* Main.storyboard */,
+				0EDA6F6D1F07D614009C0D1D /* CustomMapCell.xib */,
+				0EDA6F6B1F07D2DD009C0D1D /* MapViewController.swift */,
+				0EDA6F6F1F07DB02009C0D1D /* CustomMapCell.swift */,
+				0E6AFFEE204DDCC7001F09FA /* SignUpOrLoginViewController.swift */,
+				0E33726D1F43A9BC00C71B31 /* CountrySelectionViewController.swift */,
+				0E24CA551F450A4E0065F849 /* CountryPageViewController.swift */,
+				0E24CA571F450AA70065F849 /* CountryCellPageViewController.swift */,
+				0E24CA591F470F340065F849 /* SignUpViewController.swift */,
+				0E2BEB9A1FC7CC8000D8BFA8 /* TermsViewController.swift */,
+				0E9220D11F49DDF80090AEA7 /* LoginViewController.swift */,
+				0E9220D31F49E7A80090AEA7 /* ForgotPasswordViewController.swift */,
+				0E170B731F5F879900BFFF45 /* ForgotPasswordViewController2.swift */,
+				0E170B751F5F88BB00BFFF45 /* ForgotPasswordViewController3.swift */,
+				0E9220D61F4A62060090AEA7 /* CarsTableViewController.swift */,
+				0EEB0ED21F4CFD940020E6F8 /* CarViewController.swift */,
+				0EEB0ED41F4CFE1A0020E6F8 /* CarPageViewController.swift */,
+				0EEB0ED61F4CFE640020E6F8 /* CarImageViewController.swift */,
+				0EF89A681F4ED61500241605 /* SideMenuViewController.swift */,
+				0ECAB63A1F507B52004E7870 /* UserProfileViewController.swift */,
+				0E33726B1F43A8E600C71B31 /* Roboto-Medium.ttf */,
+				0E0D5B141F51591900974956 /* NotificationsViewController.swift */,
+				0EA42D6E1F557A7400F16F19 /* SearchViewController.swift */,
+				0E1CFF021F5D9BDD0091D3C4 /* IncomingViewController.swift */,
+				0E1CFF041F5E00310091D3C4 /* SentViewController.swift */,
+				0E1CFF061F5E11790091D3C4 /* DepositViewController.swift */,
+				0ED3B6721F5EE74300635A66 /* WithDrawViewController.swift */,
+				0E74E6001F7B074400D85BCC /* RentPromptViewController.swift */,
+				0E74E6021F7B16A700D85BCC /* RefusalViewController.swift */,
+				0E74E6041F7B16BA00D85BCC /* RatingViewController.swift */,
+				0E33726F1F43B1BC00C71B31 /* NeoSans-regular.ttf */,
+				0EDA6F601F07C382009C0D1D /* Assets.xcassets */,
+				0E2BEB9C1FC7EA1D00D8BFA8 /* ContactUSViewController.swift */,
+				0E1CFF001F5AA01B0091D3C4 /* AddCarViewController.swift */,
+				0EDA6F621F07C382009C0D1D /* LaunchScreen.storyboard */,
+				0EDA6F651F07C382009C0D1D /* Info.plist */,
+				0E74E5FE1F7ACDBA00D85BCC /* CongratsViewController.swift */,
+				0EF739091F966C0100E0ECC4 /* WaitVerificartionViewController.swift */,
+				0E4A81AE215679D40069C95B /* MoreVC.swift */,
+				0E4A81B021567FE00069C95B /* PDFWebVC.swift */,
+			);
+			path = Rento;
+			sourceTree = "<group>";
+		};
+		546EEEAEFC6379BC3B07A4BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC8DE0EB2DEE7A3B2C7EDE5 /* Pods_Rento.framework */,
+				C8D24AA4C53BCABE7FD42004 /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEC83ABF0B092D8FE62362F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8173D814000998944FC79DF /* Pods-Rento.debug.xcconfig */,
+				9CBDAE36AA1B22B02D21804A /* Pods-Rento.release.xcconfig */,
+				1A98377BDC120E57A6C79AFB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				DF37EE9052A5539D1CCD226D /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E74E5EF1F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E74E5FA1F7A0A2C00D85BCC /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				BE6831EAB66E275D14BBD619 /* [CP] Check Pods Manifest.lock */,
+				0E74E5EC1F7A0A2C00D85BCC /* Sources */,
+				0E74E5ED1F7A0A2C00D85BCC /* Frameworks */,
+				0E74E5EE1F7A0A2C00D85BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 0E74E5F01F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0EDA6F551F07C382009C0D1D /* Rento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDA6F681F07C382009C0D1D /* Build configuration list for PBXNativeTarget "Rento" */;
+			buildPhases = (
+				BF1D01B22C50F799ADE881D9 /* [CP] Check Pods Manifest.lock */,
+				0EDA6F521F07C382009C0D1D /* Sources */,
+				0EDA6F531F07C382009C0D1D /* Frameworks */,
+				0EDA6F541F07C382009C0D1D /* Resources */,
+				68F279DD68D13D008B3D532B /* [CP] Embed Pods Frameworks */,
+				E9049E47F592EF621B59E920 /* [CP] Copy Pods Resources */,
+				0E74E5FB1F7A0A2C00D85BCC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E74E5F61F7A0A2C00D85BCC /* PBXTargetDependency */,
+			);
+			name = Rento;
+			productName = Rento;
+			productReference = 0EDA6F561F07C382009C0D1D /* Rento.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EDA6F4E1F07C382009C0D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "mouhammed ali";
+				TargetAttributes = {
+					0E74E5EF1F7A0A2C00D85BCC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L3SSZK62LX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0EDA6F551F07C382009C0D1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L3SSZK62LX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0EDA6F511F07C382009C0D1D /* Build configuration list for PBXProject "Rento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 0EDA6F4D1F07C382009C0D1D;
+			productRefGroup = 0EDA6F571F07C382009C0D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EDA6F551F07C382009C0D1D /* Rento */,
+				0E74E5EF1F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E74E5EE1F7A0A2C00D85BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDA6F541F07C382009C0D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4A81C4215681100069C95B /* Rating a Car.pdf in Resources */,
+				0E33726C1F43A8E600C71B31 /* Roboto-Medium.ttf in Resources */,
+				0E4A81BE215681100069C95B /* الشروط و الأحكام ١.pdf in Resources */,
+				0E4A81C5215681100069C95B /* جدول الرسوم و العمولات.pdf in Resources */,
+				0E4A81C2215681100069C95B /* Fees And Commissions.pdf in Resources */,
+				0E4A81C7215681100069C95B /* Memberrship Requirements.pdf in Resources */,
+				0EDA6F641F07C382009C0D1D /* LaunchScreen.storyboard in Resources */,
+				0E4A81BF215681100069C95B /* متطلبات العضوية.pdf in Resources */,
+				0E4A81C1215681100069C95B /* Usage Policies.pdf in Resources */,
+				0EDA6F611F07C382009C0D1D /* Assets.xcassets in Resources */,
+				0E4A81C6215681100069C95B /* سياسة الإستخدام.pdf in Resources */,
+				0E0EA2732018B4CA000C28FA /* Localizable.strings in Resources */,
+				0E3372701F43B1BC00C71B31 /* NeoSans-regular.ttf in Resources */,
+				0EDA6F5F1F07C382009C0D1D /* Main.storyboard in Resources */,
+				0E4A81C3215681100069C95B /* الشروط و الأحكام.pdf in Resources */,
+				0E4A81C8215681100069C95B /* الإستئجار.pdf in Resources */,
+				0E4A81C0215681100069C95B /* Terms And Conditions.pdf in Resources */,
+				0EDA6F6E1F07D614009C0D1D /* CustomMapCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68F279DD68D13D008B3D532B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rento/Pods-Rento-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/Font-Awesome-Swift/Font_Awesome_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GearRefreshControl/GearRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MIBadgeButton-Swift/MIBadgeButton_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PhotoSlider/PhotoSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/ReadMoreTextView/ReadMoreTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Font_Awesome_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GearRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MIBadgeButton_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhotoSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReadMoreTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rento/Pods-Rento-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6831EAB66E275D14BBD619 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1D01B22C50F799ADE881D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rento-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9049E47F592EF621B59E920 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rento/Pods-Rento-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rento/Pods-Rento-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E74E5EC1F7A0A2C00D85BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E74E5F31F7A0A2C00D85BCC /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDA6F521F07C382009C0D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0EA2782018CCC7000C28FA /* MirroringViewController.swift in Sources */,
+				0E4A81AF215679D40069C95B /* MoreVC.swift in Sources */,
+				0EF89A691F4ED61500241605 /* SideMenuViewController.swift in Sources */,
+				0EDA6F5C1F07C382009C0D1D /* ViewController.swift in Sources */,
+				0E52DB8420175D0200CBCC1F /* L012Localizer.swift in Sources */,
+				0EEB0ED71F4CFE640020E6F8 /* CarImageViewController.swift in Sources */,
+				0E74E6031F7B16A700D85BCC /* RefusalViewController.swift in Sources */,
+				0E74E5FF1F7ACDBA00D85BCC /* CongratsViewController.swift in Sources */,
+				0E24CA581F450AA70065F849 /* CountryCellPageViewController.swift in Sources */,
+				0E2BEB9D1FC7EA1D00D8BFA8 /* ContactUSViewController.swift in Sources */,
+				0EA42D6F1F557A7400F16F19 /* SearchViewController.swift in Sources */,
+				0E1CFF071F5E11790091D3C4 /* DepositViewController.swift in Sources */,
+				0E74E6011F7B074400D85BCC /* RentPromptViewController.swift in Sources */,
+				0E9220D41F49E7A80090AEA7 /* ForgotPasswordViewController.swift in Sources */,
+				0ECAB63B1F507B52004E7870 /* UserProfileViewController.swift in Sources */,
+				0E52DB8520175D0200CBCC1F /* L102Language.swift in Sources */,
+				0E1CFF011F5AA01B0091D3C4 /* AddCarViewController.swift in Sources */,
+				0E24CA561F450A4E0065F849 /* CountryPageViewController.swift in Sources */,
+				0E9220D71F4A62060090AEA7 /* CarsTableViewController.swift in Sources */,
+				0EDA6F6C1F07D2DD009C0D1D /* MapViewController.swift in Sources */,
+				0E0D5B151F51591900974956 /* NotificationsViewController.swift in Sources */,
+				0EEB0ED51F4CFE1A0020E6F8 /* CarPageViewController.swift in Sources */,
+				0EDA6F5A1F07C382009C0D1D /* AppDelegate.swift in Sources */,
+				0E33726E1F43A9BC00C71B31 /* CountrySelectionViewController.swift in Sources */,
+				0ED3B6731F5EE74300635A66 /* WithDrawViewController.swift in Sources */,
+				0EDE556A2032490E003A8BC2 /* Helper.swift in Sources */,
+				0E6AFFEF204DDCC7001F09FA /* SignUpOrLoginViewController.swift in Sources */,
+				0E24CA5A1F470F340065F849 /* SignUpViewController.swift in Sources */,
+				0E74E6051F7B16BA00D85BCC /* RatingViewController.swift in Sources */,
+				0EDA6F701F07DB02009C0D1D /* CustomMapCell.swift in Sources */,
+				0EF7390A1F966C0100E0ECC4 /* WaitVerificartionViewController.swift in Sources */,
+				0E9220D21F49DDF80090AEA7 /* LoginViewController.swift in Sources */,
+				0E1CFF051F5E00310091D3C4 /* SentViewController.swift in Sources */,
+				0E1CFF031F5D9BDD0091D3C4 /* IncomingViewController.swift in Sources */,
+				0E4A81B121567FE00069C95B /* PDFWebVC.swift in Sources */,
+				0E170B761F5F88BB00BFFF45 /* ForgotPasswordViewController3.swift in Sources */,
+				0E170B741F5F879900BFFF45 /* ForgotPasswordViewController2.swift in Sources */,
+				0E33726A1F437D9A00C71B31 /* LanguageSelectionViewController.swift in Sources */,
+				0E2BEB9B1FC7CC8000D8BFA8 /* TermsViewController.swift in Sources */,
+				0EEB0ED31F4CFD940020E6F8 /* CarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E74E5F61F7A0A2C00D85BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E74E5EF1F7A0A2C00D85BCC /* OneSignalNotificationServiceExtension */;
+			targetProxy = 0E74E5F51F7A0A2C00D85BCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E0EA2752018B4CA000C28FA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E0EA2742018B4CA000C28FA /* Base */,
+				0E0EA2762018B4CE000C28FA /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		0EDA6F5D1F07C382009C0D1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EDA6F5E1F07C382009C0D1D /* Base */,
+				0E0EA26F2018B488000C28FA /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EDA6F621F07C382009C0D1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EDA6F631F07C382009C0D1D /* Base */,
+				0E0EA2702018B488000C28FA /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E74E5F81F7A0A2C00D85BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A98377BDC120E57A6C79AFB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				DEVELOPMENT_TEAM = L3SSZK62LX;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riderappksa.rentoApp.OneSignalNotificationServiceExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0E74E5F91F7A0A2C00D85BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF37EE9052A5539D1CCD226D /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				DEVELOPMENT_TEAM = L3SSZK62LX;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riderappksa.rentoApp.OneSignalNotificationServiceExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0EDA6F661F07C382009C0D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EDA6F671F07C382009C0D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EDA6F691F07C382009C0D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8173D814000998944FC79DF /* Pods-Rento.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rento/Rento.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3SSZK62LX;
+				INFOPLIST_FILE = Rento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riderappksa.rentoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0EDA6F6A1F07C382009C0D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBDAE36AA1B22B02D21804A /* Pods-Rento.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rento/Rento.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3SSZK62LX;
+				INFOPLIST_FILE = Rento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riderappksa.rentoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E74E5FA1F7A0A2C00D85BCC /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E74E5F81F7A0A2C00D85BCC /* Debug */,
+				0E74E5F91F7A0A2C00D85BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EDA6F511F07C382009C0D1D /* Build configuration list for PBXProject "Rento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EDA6F661F07C382009C0D1D /* Debug */,
+				0EDA6F671F07C382009C0D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EDA6F681F07C382009C0D1D /* Build configuration list for PBXNativeTarget "Rento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EDA6F691F07C382009C0D1D /* Debug */,
+				0EDA6F6A1F07C382009C0D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EDA6F4E1F07C382009C0D1D /* Project object */;
+}

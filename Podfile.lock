@@ -1,0 +1,147 @@
+PODS:
+  - Alamofire (4.5.0)
+  - BEMCheckBox (1.4.1)
+  - Cache (4.2.0)
+  - Cosmos (11.0.3)
+  - DropDown (2)
+  - Font-Awesome-Swift (1.6.2)
+  - GearRefreshControl (1.0.1)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.4.0):
+    - GoogleMaps (= 2.4.0)
+    - GooglePlaces (= 2.4.0)
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
+  - Hue (3.0.1)
+  - Imaginary (3.0.3):
+    - Cache (~> 4.0)
+  - IQKeyboardManagerSwift (6.0.4)
+  - Kingfisher (4.8.1)
+  - libwebp (0.6.0):
+    - libwebp/core (= 0.6.0)
+    - libwebp/dec (= 0.6.0)
+    - libwebp/demux (= 0.6.0)
+    - libwebp/dsp (= 0.6.0)
+    - libwebp/enc (= 0.6.0)
+    - libwebp/mux (= 0.6.0)
+    - libwebp/utils (= 0.6.0)
+    - libwebp/webp (= 0.6.0)
+  - libwebp/core (0.6.0):
+    - libwebp/webp
+  - libwebp/dec (0.6.0):
+    - libwebp/core
+  - libwebp/demux (0.6.0):
+    - libwebp/core
+  - libwebp/dsp (0.6.0):
+    - libwebp/core
+  - libwebp/enc (0.6.0):
+    - libwebp/core
+  - libwebp/mux (0.6.0):
+    - libwebp/core
+  - libwebp/utils (0.6.0):
+    - libwebp/core
+  - libwebp/webp (0.6.0)
+  - MIBadgeButton-Swift (0.4)
+  - OneSignal (2.5.4)
+  - PhotoSlider (0.22.0):
+    - Kingfisher
+  - PKHUD (4.2.3)
+  - RangeSeekSlider (1.7.0)
+  - ReadMoreTextView (2.0.0)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SDWebImage/WebP (4.1.0):
+    - libwebp
+    - SDWebImage/Core
+  - SideMenu (2.3.3)
+  - Toast-Swift (2.0.0)
+  - XLPagerTabStrip (7.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BEMCheckBox
+  - Cosmos (~> 11.0)
+  - DropDown
+  - Font-Awesome-Swift
+  - GearRefreshControl (~> 1.0.0)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - Hue
+  - Imaginary
+  - IQKeyboardManagerSwift
+  - MIBadgeButton-Swift
+  - OneSignal
+  - PhotoSlider
+  - PKHUD
+  - RangeSeekSlider
+  - ReadMoreTextView
+  - SDWebImage
+  - SDWebImage/WebP
+  - SideMenu
+  - Toast-Swift (~> 2.0.0)
+  - XLPagerTabStrip (~> 7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BEMCheckBox
+    - Cache
+    - Cosmos
+    - DropDown
+    - Font-Awesome-Swift
+    - GearRefreshControl
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - Hue
+    - Imaginary
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - libwebp
+    - MIBadgeButton-Swift
+    - OneSignal
+    - PhotoSlider
+    - PKHUD
+    - RangeSeekSlider
+    - ReadMoreTextView
+    - SDWebImage
+    - SideMenu
+    - Toast-Swift
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Cache: f28f8dd64b632155aabf9b3906b036a659048251
+  Cosmos: eb506859929f4add2d2aec822a27efb2f718a95d
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  Font-Awesome-Swift: 4dc96df73b5f32aaccdee50a454c3ec253ee4977
+  GearRefreshControl: f1d4cf97b6440bbd47d6a8a32fe2aaddd6d1e3cb
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlacePicker: 755f10343d71280c7b016823e73fbae9625dfa8a
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  Imaginary: 9b45836a5af881f452a86e0a1215772ae4712d00
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  libwebp: 1d5a07c2eb97f9c31bd5f154bb82efc0ea67c6a2
+  MIBadgeButton-Swift: b5d07924904c84bcb8e8fe3c3131b8499f28930c
+  OneSignal: da994bcf6a2efbdceaf71e389e1d05245c562899
+  PhotoSlider: bf7fd28026b79a13b87f4f9c075868c78bb2934d
+  PKHUD: c7692163a09875cbf15827dc581df3c5cf7f1015
+  RangeSeekSlider: 0386c5a9aa5ebcb2fa5238e8a627280cf46c7c0a
+  ReadMoreTextView: aefb9ffe11922c87fd39a09a988d7cc74c8438ba
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SideMenu: a447554ae5c982e8077666389e1c8b0c8656e065
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+
+PODFILE CHECKSUM: d2aa514617d879f5dd0cf52425b3f20809a0da16
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  Rento
+
+  Created by mouhammed ali on 1/24/18.
+  Copyright © 2018 mouhammed ali. All rights reserved.
+*/
+"CAR RENTAL" = "CAR RENTAL";
+"RECENT" = "RECENT";
+"POPULAR" = "POPULAR";
+"IN MAP" = "IN MAP";
+"Doors" = "Doors";
+"SEARCH RESULTS" = "RESULTS";
+"FAVORITES" = "FAVORITES";
+"MY CARS" = "MY CARS";
+"CAR DETAILS" = "CAR DETAILS";
+"Trips" = "Trips";
+"NOTIFICATIONS" = "NOTIFICATIONS";
+"SENT ORDERS" = "SENT ORDERS";
+"From" = "From";
+"To" = "To";
+"INCOMING ORDERS" = "ORDERS";
+"CONTACT US" = "CONTACT US";
+"WITHDRAW" = "WITHDRAW";
+"RECHARGE" = "RECHARGE";
+"PROFILE" = "PROFILE";
+"FILTER SEARCH" = "FILTER SEARCH";
+"EDIT CAR" = "EDIT CAR";
+"ADD CAR" = "ADD CAR";
+"TERMS AND CONDITIONS" = "TERMS AND CONDITIONS";
+"Edit Your \n Profile" = "Edit Your \n Profile";
+"CREATE PROFILE" = "CREATE PROFILE";
+"EDIT PROFILE" = "EDIT PROFILE";
+"EDIT YOUR CAR" = "EDIT YOUR CAR";
+"From:" = "From:";
+"To:" = "To:";
+"End Time:" = "End Time:";
+"Start Time:" = "Start Time:";
+"Home" = "Home";
+"Profile" = "Profile";
+"My Cars" = "My Cars";
+"Add Car" = "Add Car";
+"Notifications" = "Notifications";
+"My Favorites" = "My Favorites";
+"Sent Orders" =" Sent Orders";
+"Incoming Orders" = "Incoming Orders";
+"Contact Us" = "Contact Us";
+"Logout" = "Logout";
+
+"Change Language" = "Change Language";
+"Cancel" = "Cancel";
+"Choose Option" = "Choose Option";
+"Change Country" = "Change Country";
+"Done" = "Done";
+"What Is Wrong?" = "What Is Wrong?";
+"Send" = "Send";
+"Camera" = "Camera";
+"Gallery" = "Gallery";
+"Read More" = "Read More";
+"Read Less" = "Read Less";
+"Per Day" = "Per Day";
+
+"Please Select a City" = "Please Select a City";
+"Choose City" = "Choose City";
+"No Matching Cars Were Found" = "No Matching Cars Were Found";
+"Please Select a Location Within" = "Please Select a Location Within";
+"Terms and Conditions" = "Terms and Conditions";
+"CONDITIONS" = "CONDITIONS";
+"More" = "More";
+"Terms And Conditions" = "Terms And Conditions";
+

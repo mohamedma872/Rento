@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f4fcdf706dd71daf4d4fc904b4c7bdaf"
+build_time: [1540723624, 325241000]
+inputs:
+  "/Users/mouhammedali/Desktop/Projects/Rento/OneSignalNotificationServiceExtension/NotificationService.swift": [9223372036, 854775807]

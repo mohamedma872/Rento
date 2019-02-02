@@ -1,0 +1,47 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/mouhammedali/Desktop/Projects/Rento/OneSignalNotificationServiceExtension/NotificationService.swift",
+      "line": 5,
+      "symbol": "NotificationService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mouhammedali/Desktop/Projects/Rento/OneSignalNotificationServiceExtension/NotificationService.swift",
+      "line": 7,
+      "symbol": "NotificationService.contentHandler",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mouhammedali/Desktop/Projects/Rento/OneSignalNotificationServiceExtension/NotificationService.swift",
+      "line": 8,
+      "symbol": "NotificationService.receivedRequest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mouhammedali/Desktop/Projects/Rento/OneSignalNotificationServiceExtension/NotificationService.swift",
+      "line": 9,
+      "symbol": "NotificationService.bestAttemptContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mouhammedali/Desktop/Projects/Rento/OneSignalNotificationServiceExtension/NotificationService.swift",
+      "line": 11,
+      "symbol": "NotificationService.didReceive(_:withContentHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mouhammedali/Desktop/Projects/Rento/OneSignalNotificationServiceExtension/NotificationService.swift",
+      "line": 22,
+      "symbol": "NotificationService.serviceExtensionTimeWillExpire()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/mouhammedali/Desktop/Projects/Rento"
+}

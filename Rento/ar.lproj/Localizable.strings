@@ -1,0 +1,77 @@
+/* 
+  Localizable.strings
+  Rento
+
+  Created by mouhammed ali on 1/24/18.
+  Copyright © 2018 mouhammed ali. All rights reserved.
+*/
+"CAR RENTAL" = "رينتو";
+"RECENT" = "الأخيرة";
+"POPULAR" = "مميز";
+"IN MAP" = "الخريطة";
+"Doors" = "أبواب";
+"SEARCH RESULTS" = "نتائج البحث";
+"FAVORITES" = "المفضلة";
+"MY CARS" = "سياراتي";
+"CAR DETAILS" = "تفاصيل السيارة";
+"Trips" = "رحلات";
+"NOTIFICATIONS" = "الإشعارات";
+"SENT ORDERS" = "الطلبات المرسلة";
+"From" = "من";
+"To" = "إلي";
+"INCOMING ORDERS" = "الطلبات الواردة";
+"CONTACT US" = "اتصل بنا";
+"WITHDRAW" = "سحب الرصيد";
+"RECHARGE" = "إعادة الشحن";
+"PROFILE" = "الملف الشخصي";
+"FILTER SEARCH" = "البحث عن سيارة";
+"EDIT CAR" = "تعديل السيارة";
+"ADD CAR" = "إضافة سيارة";
+"TERMS AND CONDITIONS" = "الشروط و الأحكام";
+"Edit Your \n Profile" = "عدل ملفك \nالشخصي";
+"CREATE PROFILE" = "إنشاء ملف شخصي";
+"EDIT PROFILE" = "تعديل الملف شخصي";
+"EDIT YOUR CAR" = "عدل سيارتك";
+"From:" = "من:";
+"To:" = "إلي:";
+"End Time:" = "توقيت النهاية:";
+"Start Time:" = "توقيت البداية:";
+
+"Home" = "الرئيسية";
+"Profile" = "الملف الشخصي";
+"My Cars" = "سياراتي";
+"Add Car" = "إضافة سيارة";
+"Notifications" = "الإشعارات";
+"My Favorites" = "مفضلتي";
+"Sent Orders" ="الطلبات المرسلة";
+"Incoming Orders" = "الطلبات الواردة";
+"Contact Us" = "اتصل بنا";
+"Logout" = "تسجيل الخروج";
+
+
+"Change Language" = "تغيير اللغة";
+"Cancel" = "إلغاء";
+"Choose Option" = "اختر";
+"Change Country" = "تغيير الدولة";
+"Done" = "تم";
+
+"What Is Wrong?" = "ما هي المشكلة؟";
+"Send" = "إرسال";
+
+"Camera" = "الكاميرا";
+"Gallery" = "معرض الصور";
+
+"Read More" = "اقرأ المزيد";
+
+"Read Less" = "اختصر الكتابة";
+"Per Day" = "في اليوم";
+
+"Please Select a City" = "من فضلك قم بإختيار مدينة";
+"Choose City" = "اخنر المدينة";
+"No Matching Cars Were Found" = "لا يوجد سيارات مطابقة للبحث";
+
+"Please Select a Location Within" = "من فضلك قم بإختيار موقع في حدود";
+"Terms and Conditions" = "الشروط والاحكام";
+"CONDITIONS" = "الشروط";
+"More" = "المزيد";
+"Terms And Conditions" = "الشروط و الأحكام ١";
